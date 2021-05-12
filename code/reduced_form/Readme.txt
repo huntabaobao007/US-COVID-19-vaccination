@@ -1,12 +1,14 @@
-There are five Matlab m files in the folder. "recover_ols.m" is a function file used to generate data series in the 22 states with missing recover data, and the rest is used to clean data or generate main results mentioned in our paper. 
-Also there are four Stata do files. "beta.do" and "beta_2.do" are used to generate panel regression results regarding infection rate \beta, with 1st dose and full vaccination data respectively. "delta.do" and "delta2.do" are used to generate panel regression results regarding vaccination administration rate \delta, with 1st dose and full vaccination data respectively. Details see below.
+There are two Stata do files, "clean" do file and "results_main" do file.
 
-1. "data.m" is used to simulate and project using 1st dose data. "criterion.m" is used to acquire herd immunity results using 1st dose data.
-But it is worth mentioning that in "data.m", after the session that generates "panel.xlsx", one should copy the data in "panel.xlsx" and paste in "panel.dta", then run "beta.do" in Stata to generate "beta.xls", then copy the data in "beta.xls" and paste into "beta_gen.xlsx", and then continue the following session in Matlab. 
-Also after the session that generates "delta.xlsx", one should copy the data in "delta.xlsx" and paste in "delta.dta", then run "delta.do" in Stata to generate "delta.xls", then copy the data in "delta.xls" and paste into "delta_gen.xlsx", and then continue the following session in Matlab.
-"criterion.m" has to be run directly after "data.m".
+1. "clean" do file is used to clean raw data, merge different data sets and gengerate work data files to produce results.
 
-2.  "data2.m" is used to simulate and project using full vaccination data. "criterion2.m" is used to acquire herd immunity results using full vaccination data.
-But it is worth mentioning that in "data_2.m", after the session that generates "panel_2.xlsx", one should copy the data in "panel_2.xlsx" and paste in "panel_2.dta", then run "beta_2.do" in Stata to generate "beta_2.xls", then copy the data in "beta_2.xls" and paste into "beta_gen_2.xlsx", and then continue the following session in Matlab. 
-Also after the session that generates "delta.xlsx", one should copy the data in "delta.xlsx" and paste in "delta_2.dta", then run "delta_2.do" in Stata to generate "delta_2.xls", then copy the data in "delta_2.xls" and paste into "delta_gen_2.xlsx", and then continue the following session in Matlab.
-"criterion_2.m" has to be run directly after "data_2.m".
+Part 0 "pre-processing for some data" constructs age groups and racial groups for each state, plots Extended Fig 1a using vaccine distribution data, and generates daily weather data by state from station-level hourly weather data. 
+Part 1 "daily data" constructs US state-daily panel datasets including epidemiological data,  vaccination data, and nonpharmaceutical intervention policies data.
+Part 2 "clean state level controls" organizes state-level sociodemographic variables, data of election rallies and Black Lives Matter (BLM) Demonstrations, and information of vaccination producer.
+
+
+2.  "results_main" do file is used to produce all reduced-form Tables and Figures in Manuscript and Supplementary Information.
+
+Tables includes Extended Data Table 1, Extended Data Table 2, and Extended Data Table 3.  
+Figures includes Figure 2, Figure 3, Supplement Figure 2, Supplement Figure 3, Supplement Figure 4, and Supplement Figure 5 and Supplement Figure 6.
+Please note that color scheme of figures displayed in the paper is adjusted using the figure editor.
