@@ -1,0 +1,52 @@
+state_name,state,HouseholdIncome,trump_win,biden_win,HospitalBeds2018,"Bedsper_1,000Pop",Governor Political Affiliation,State Senate Majority Political Affiliation,State House Majority Political Affiliation,State Attorney General Political Affiliation
+Alabama,AL,50536,1,0,15278,3.1,Republican,Republican,Republican,Republican
+Alaska,AK,77640,1,0,1636,2.2,Republican,Republican,Republican,Appointed
+Arizona,AZ,58945,0,1,13846,1.9,Republican,Republican,Republican,Republican
+Arkansas,AR,47597,1,0,9517,3.2,Republican,Republican,Republican,Republican
+California,CA,75235,0,1,72511,1.8,Democrat,Democrat,Democrat,Democrat
+Colorado,CO,72331,0,1,10574,1.9,Democrat,Democrat,Democrat,Democrat
+Connecticut,CT,78444,0,1,7194,2,Democrat,Democrat,Democrat,Democrat
+Delaware,DE,68287,0,1,2101,2.2,Democrat,Democrat,Democrat,Democrat
+District of Columbia,DC,,0,1,3114,4.4,Democrat,Democrat,N/A,Democrat
+Florida,FL,55660,1,0,54744,2.6,Republican,Republican,Republican,Republican
+Georgia,GA,58700,0,1,25114,2.4,Republican,Republican,Republican,Republican
+Hawaii,HI,81275,0,1,2749,1.9,Democrat,Democrat,Democrat,Appointed
+Idaho,ID,55785,1,0,3396,1.9,Republican,Republican,Republican,Republican
+Illinois,IL,65886,0,1,32066,2.5,Democrat,Democrat,Democrat,Democrat
+Indiana,IN,56303,1,0,18156,2.7,Republican,Republican,Republican,Republican
+Iowa,IA,60523,1,0,9423,3,Republican,Republican,Republican,Democrat
+Kansas,KS,59597,1,0,9659,3.3,Democrat,Republican,Republican,Republican
+Kentucky,KY,50589,1,0,14329,3.2,Democrat,Republican,Republican,Republican
+Louisiana,LA,49469,1,0,15272,3.3,Democrat,Republican,Republican,Republican
+Maine,ME,57918,0,1,3400,2.5,Democrat,Democrat,Democrat,Appointed
+Maryland,MD,84805,0,1,11577,1.9,Republican,Democrat,Democrat,Democrat
+Massachusetts,MA,81215,0,1,15649,2.3,Republican,Democrat,Democrat,Democrat
+Michigan,MI,57144,0,1,24949,2.5,Democrat,Republican,Republican,Democrat
+Minnesota,MN,71306,0,1,13895,2.5,Democrat,Republican,Democrat,Democrat
+Mississippi,MS,45081,1,0,12071,4,Republican,Republican,Republican,Republican
+Missouri,MO,55461,1,0,18749,3.1,Republican,Republican,Republican,Republican
+Montana,MT,54970,1,0,3542,3.3,Republican,Republican,Republican,Republican
+Nebraska,NE,61439,1,0,6842,3.6,Republican,N/A,N/A,Republican
+Nevada,NV,60365,0,1,6493,2.1,Democrat,Democrat,Democrat,Democrat
+New Hampshire,NH,76768,0,1,2783,2.1,Republican,Republican,Republican,Appointed
+New Jersey,NJ,82545,0,1,20901,2.4,Democrat,Democrat,Democrat,Appointed
+New Mexico,NM,49754,0,1,3811,1.8,Democrat,Democrat,Democrat,Democrat
+New York,NY,68486,0,1,51927,2.7,Democrat,Democrat,Democrat,Democrat
+North Carolina,NC,54602,1,0,21549,2.1,Democrat,Republican,Republican,Democrat
+North Dakota,ND,64894,1,0,3235,4.3,Republican,Republican,Republican,Republican
+Ohio,OH,56602,1,0,33157,2.8,Republican,Republican,Republican,Republican
+Oklahoma,OK,52919,1,0,11144,2.8,Republican,Republican,Republican,Republican
+Oregon,OR,62818,0,1,6889,1.6,Democrat,Democrat,Democrat,Democrat
+Pennsylvania,PA,61744,0,1,36730,2.9,Democrat,Republican,Republican,Democrat
+Rhode Island,RI,67167,0,1,2187,2.1,Democrat,Democrat,Democrat,Democrat
+South Carolina,SC,53199,1,0,12120,2.4,Republican,Republican,Republican,Republican
+South Dakota,SD,58275,1,0,4183,4.8,Republican,Republican,Republican,Republican
+Tennessee,TN,53320,1,0,19387,2.9,Republican,Republican,Republican,Appointed
+Texas,TX,61874,1,0,65671,2.3,Republican,Republican,Republican,Republican
+Utah,UT,71621,1,0,5767,1.8,Republican,Republican,Republican,Republican
+Vermont,VT,61973,0,1,1305,2.1,Republican,Democrat,Democrat,Democrat
+Virginia,VA,74222,0,1,18065,2.1,Democrat,Democrat,Democrat,Democrat
+Washington,WA,73775,0,1,12774,1.7,Democrat,Democrat,Democrat,Democrat
+West Virginia,WV,46711,1,0,6868,3.8,Republican,Republican,Republican,Republican
+Wisconsin,WI,61747,0,1,12103,2.1,Democrat,Republican,Republican,Democrat
+Wyoming,WY,64049,1,0,2015,3.5,Republican,Republican,Republican,Appointed

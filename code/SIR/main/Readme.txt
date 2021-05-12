@@ -1,0 +1,12 @@
+There are five Matlab m files in the folder. "recover_ols.m" is a function file used to generate data series in the 22 states with missing recover data, and the rest is used to clean data or generate main results mentioned in our paper. 
+Also there are four Stata do files. "beta.do" and "beta_2.do" are used to generate panel regression results regarding infection rate \beta, with 1st dose and full vaccination data respectively. "delta.do" and "delta2.do" are used to generate panel regression results regarding vaccination administration rate \delta, with 1st dose and full vaccination data respectively. Details see below.
+
+1. "data.m" is used to simulate and project using 1st dose data. "criterion.m" is used to acquire herd immunity results using 1st dose data.
+But it is worth mentioning that in "data.m", after the session that generates "panel.xlsx", one should copy the data in "panel.xlsx" and paste in "panel.dta", then run "beta.do" in Stata to generate "beta.xls", then copy the data in "beta.xls" and paste into "beta_gen.xlsx", and then continue the following session in Matlab. 
+Also after the session that generates "delta.xlsx", one should copy the data in "delta.xlsx" and paste in "delta.dta", then run "delta.do" in Stata to generate "delta.xls", then copy the data in "delta.xls" and paste into "delta_gen.xlsx", and then continue the following session in Matlab.
+"criterion.m" has to be run directly after "data.m".
+
+2.  "data2.m" is used to simulate and project using full vaccination data. "criterion2.m" is used to acquire herd immunity results using full vaccination data.
+But it is worth mentioning that in "data_2.m", after the session that generates "panel_2.xlsx", one should copy the data in "panel_2.xlsx" and paste in "panel_2.dta", then run "beta_2.do" in Stata to generate "beta_2.xls", then copy the data in "beta_2.xls" and paste into "beta_gen_2.xlsx", and then continue the following session in Matlab. 
+Also after the session that generates "delta.xlsx", one should copy the data in "delta.xlsx" and paste in "delta_2.dta", then run "delta_2.do" in Stata to generate "delta_2.xls", then copy the data in "delta_2.xls" and paste into "delta_gen_2.xlsx", and then continue the following session in Matlab.
+"criterion_2.m" has to be run directly after "data_2.m".
